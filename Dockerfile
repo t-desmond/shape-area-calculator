@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY . .
 
-RUN cargo build --release
+RUN cargo build --releas
 
 FROM alpine:latest
 
