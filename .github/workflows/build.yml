@@ -1,4 +1,4 @@
-name: build for fibonacci 
+name: build for shape-area-calculator
 on:
   push:
     branches:
