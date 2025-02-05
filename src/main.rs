@@ -19,7 +19,7 @@ fn main() {
                         Ok(r) => r,
                         Err(_) => {
                             println!("enter valied raduis");
-                            return;
+                            continue;
                         }
                     };
                     println!("The area of the circle is: {}", Cicle::new(radius).area());
@@ -33,7 +33,7 @@ fn main() {
                         Ok(r) => r,
                         Err(_) => {
                             println!("enter valied raduis");
-                            return;
+                            continue;
                         }
                     };
                     let mut height = String::new();
